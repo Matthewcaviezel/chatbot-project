@@ -1,0 +1,26 @@
+.chat-messages-container {
+        flex-grow: 1;
+        margin-top: 20px;
+        overflow: scroll;
+        scrollbar-width: none;
+      }
+      .chat-messages-container {
+  flex-grow: 1;
+  padding: 12px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.typing-indicator {
+  font-size: 13px;
+  color: #777;
+  margin: 8px 12px;
+  font-style: italic;
+}
+.chat-messages-container {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  background-color: var(--bg-color);
+}
+
+
